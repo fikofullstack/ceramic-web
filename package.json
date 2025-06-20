@@ -1,15 +1,15 @@
 {
-  "name": "test",
+  "name": "ceramic_soul",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "vite.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "sass": "^1.89.2",
+    "sass": "^1.84.0",
     "vite": "^6.3.5"
   }
 }
