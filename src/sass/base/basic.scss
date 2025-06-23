@@ -1,4 +1,5 @@
 @use '/src/sass/base/variables.scss' as *;
+
 h1,
 h2,
 h3,
@@ -50,11 +51,25 @@ html {
 	font-family: "Barlow", sans-serif;
 	scroll-behavior: smooth;
 }
-body{
+
+body {
 	background-color: $Light;
 }
 
 .container {
-    width: 100%;
-    padding: 0 10px;
+	width: 100%;
+	padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+		padding: 0;
+		margin: 0 auto;
+	}
+}
+@media (min-width: 1208px) {
+	.container {
+		max-width: 1140px;
+	}
 }
