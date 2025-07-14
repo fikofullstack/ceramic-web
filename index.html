@@ -22,6 +22,7 @@
 				<div class="header__top">
 					<div class="burger"><span></span><span></span><span></span></div>
 					<a href="#" class="header__logo">
+						<img src="./src/img/logo/logo.png" alt="">
 					</a>
 					<div class="header__icons">
 						<a href="#"><span class="icon-search"></span></a>
@@ -117,27 +118,72 @@
 	<section class="works">
 		<div class="container">
 			<h2 class="title-h2">check out our works</h2>
-			<div class="swiper works__slider">
-				<!-- Additional required wrapper -->
-				<div class="swiper-wrapper">
-					<!-- Slides -->
-					<div class="swiper-slide"><img src="/src/img/works/tea-1.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="/src/img/works/tea-2.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="/src/img/works/tea-3.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="/src/img/works/tea-2.jpg" alt=""></div>
-
-
+			<div class="works__wrapper">
+				<div class="swiper works__slider">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide"><img src="/src/img/works/tea-1.jpg" alt=""></div>
+						<div class="swiper-slide"><img src="/src/img/works/tea-2.jpg" alt=""></div>
+						<div class="swiper-slide"><img src="/src/img/works/tea-3.jpg" alt=""></div>
+						<div class="swiper-slide"><img src="/src/img/works/tea-2.jpg" alt=""></div>
+					</div>
 				</div>
 				<!-- If we need pagination -->
 				<div class="swiper-pagination"></div>
-
+				<!-- If we need scrollbar -->
+				<div class="swiper-scrollbar"></div>
 				<!-- If we need navigation buttons -->
 				<span class="icon-left-open works__slider-nav"></span>
 				<span class="icon-right-open works__slider-nav"></span>
-				
-
-				<!-- If we need scrollbar -->
-				<div class="swiper-scrollbar"></div>
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<div class="container">
+			<div class="footer__newsletter">
+				<h3 class="footer__title footer__title--newsletter">newsletter</h3>
+				<form class="touch__form footer__form" action="#">
+					<fieldset class="touch__fieldset footer__fieldset">
+						<p class="footer__form--text">Keep up to date with news and promotions</p>		
+						<div class="touch__input-block footer__input-block">
+							<label class="footer__label" for="email">Enter your e-mail</label>
+							<input class="footer__input" type="email" id="email" name="email"
+								placeholder="Email" required />
+						</div>
+					</fieldset>
+				</form>
+				<label class="touch__label touch__check-block footer__check-block" for="checkbox"></label>
+				<input required class="touch__checkbox footer__checkbox" type="checkbox" id="checkbox" />
+				<span class="footer__checkbox">I agree with the</span> <a href="#">terms</a></label>
+				<button class="btn-send footer__btn"><span class="footer__btn--submit">submit</span></button>
+			</div>
+			<nav class="footer__nav">
+				<div class="footer__nav--block">
+					<h3 class="footer__title footer__nav--discover">DISCOVER</h3>
+					<ul class="footer__list footer__nav--list">
+						<li class="footer__list--item">About Us</li>
+						<li class="footer__list--item">Blog</li>
+					</ul>
+				</div>
+				<div class="footer__discover footer__discover--shopping">
+					<h3 class="footer__title footer__discover--header ">SHOPPING</h3>
+					<ul class="footer__list footer__discover--list">
+						<li class="footer__item footer__list--item">Catalog</li>
+					</ul>
+				</div>
+				<div class="footer__information">
+					<h3 class="footer__title footer__information--title">INFORMATION</h3>
+					<ul class="footer__list footer__information--list">
+						<li class="footer__item footer__list--item">Terms and Conditions</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="footer__icons">
+				<p class="footer__icons--text">follow us</p>
+				<a class="footer__icon--limk" href="#"><span class="icon-facebook footer__icons--facebook"></span></a>
+				<a class="footer__icon--limk" href="#"><span class="icon-instagram footer__icons--instagram"></span></a>
+				<a class="footer__icon--limk" href="#"><span class="icon-pinterest-circled footer__icons--pinterest"></span></a>
 			</div>
 		</div>
 	</section>
