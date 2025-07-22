@@ -25,27 +25,27 @@
 						</div>
 						<nav class="header__menu-nav">
 							<ul>
-								<li><a href="#" class="header__menu-link">catalog</a></li>
-								<li><a href="#" class="header__menu-link">blog</a></li>
-								<li><a href="#" class="header__menu-link">about</a></li>
+								<li><a href="catalog.html" class="header__menu-link">catalog</a></li>
+								<li><a href="blog.html" class="header__menu-link">blog</a></li>
+								<li><a href="about.html" class="header__menu-link">about</a></li>
 							</ul>
 						</nav>
 					</div>
 					<div class="header__top">
 						<div class="burger"><span></span><span></span><span></span></div>
-						<a href="#" class="header__logo"
+						<a href="index.html" class="header__logo"
 							><img src="/src/logo/logo.png" alt="logo"
 						/></a>
 						<div class="header__icons">
-							<a href="#"><span class="icon-search"></span></a>
-							<a href="#"><span class="icon-shopping-bag"></span></a>
+							<a href="search.com"><span class="icon-search"></span></a>
+							<a href="shop.com"><span class="icon-shopping-bag"></span></a>
 						</div>
 					</div>
 					<nav class="header__nav">
 						<ul>
-							<li><a href="#" class="header__link">catalog</a></li>
-							<li><a href="#" class="header__link">blog</a></li>
-							<li><a href="#" class="header__link">about</a></li>
+							<li><a href="catalog.html" class="header__link">catalog</a></li>
+							<li><a href="blog.html" class="header__link">blog</a></li>
+							<li><a href="about.html" class="header__link">about</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -192,8 +192,11 @@
 								placeholder="Enter your e-mail"
 								type="email"
 								class="footer__input"
+								id="footer__email"
+								name="footer__email"
 								required
 							/>
+							<div class="email-error-message"></div>
 							<label class="footer__check-block" for="footer__checkbox">
 								<input
 									required
@@ -201,8 +204,9 @@
 									type="checkbox"
 									id="footer__checkbox"
 								/>
-								I agree with the <a href="#">terms</a></label
+								I agree with the <a href="google.com">terms</a></label
 							>
+							<div class="check-error-message"></div>
 							<button class="btn-submit footer__form-btn">submit</button>
 						</form>
 					</div>
@@ -211,8 +215,8 @@
 							<h2 class="footer__header">discover</h2>
 							<nav class="footer__nav">
 								<ul>
-									<li class="footer__link"><a href="#">About Us</a></li>
-									<li class="footer__link"><a href="#">Blog</a></li>
+									<li class="footer__link"><a href="about.html">About Us</a></li>
+									<li class="footer__link"><a href="blog.html">Blog</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -220,7 +224,7 @@
 							<h2 class="footer__header">shopping</h2>
 							<nav class="footer__nav">
 								<ul>
-									<li class="footer__link"><a href="#">Catalog</a></li>
+									<li class="footer__link"><a href="catalog.html">Catalog</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -229,7 +233,7 @@
 							<nav class="footer__nav">
 								<ul>
 									<li class="footer__link">
-										<a href="#">Terms and Conditions</a>
+										<a href="google.com">Terms and Conditions</a>
 									</li>
 								</ul>
 							</nav>
